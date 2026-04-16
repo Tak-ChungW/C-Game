@@ -1,0 +1,64 @@
+body {
+  background: #0b0f14;
+  color: #d6d6d6;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #7a7aff;
+  letter-spacing: 2px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+#story {
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  background: #111827;
+  border: 1px solid #2a2f3a;
+  color: #d6d6d6;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1f2937;
+  transform: scale(1.01);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.92; }
+  100% { opacity: 1; }
+}
+
+body {
+  animation: flicker 6s infinite;
+}
