@@ -7,6 +7,6 @@ The prompts I used are:
 4. Add more events, choices, and survival mechanics.
 5. Improve hallucinations and AI behavior.
 
-and a lot more...
+   and a lot more...
 
 Here is the game: https://tak-chungw.github.io/C-Game/
