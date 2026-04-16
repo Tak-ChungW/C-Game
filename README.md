@@ -9,4 +9,4 @@ The prompts I used are:
 
    and a lot more...
 
-Here is the game: https://tak-chungw.github.io/C-Game/
+Here is the game: 
